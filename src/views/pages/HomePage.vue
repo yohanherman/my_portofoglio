@@ -56,7 +56,7 @@ export default defineComponent({
     
         onMounted(()=>{
             gsap.to(".container",{
-                duration: 1,
+                duration: 0.05,
                 opacity: 1,  
                 y:0,
                 ease:"power3.out",

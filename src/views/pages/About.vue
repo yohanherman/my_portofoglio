@@ -1,4 +1,7 @@
 <template>
+    <div>
+        <Navbar/>
+    </div>
     <div class="container">
         <p class="text-white">
             page à propos Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus officiis repellat, nisi magni suscipit nobis exercitationem quod quis, voluptates minima error vitae? Ea porro totam modi aut eaque officiis est!
@@ -10,9 +13,11 @@
 <script lang="ts">
 import { defineComponent, onMounted } from 'vue';
 import gsap from 'gsap';
+import Navbar from '@/components/navbar.vue';
 
 export default defineComponent({
     name:'AboutComponent',
+    components: { Navbar},
     setup(){
         onMounted(()=>{
             gsap.to('.container',{

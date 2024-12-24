@@ -1,6 +1,9 @@
 <template>
+<div>
+    <Navbar/>
+</div>
 <div class="skillsContainer">
-    <div class="skills text-white mt-10">
+    <div class="skills text-white mt-20 mb-10">
         <div class="flex justify-center items-center font-bold text-[20px]">Skills</div>
     </div>
 
@@ -25,8 +28,9 @@
             <div class="border m-1 p-3">
                 <div class="text-center mb-3">TOOLS</div>
                 <p><font-awesome-icon icon="fa-brands fa-docker"  class="mx-2" /> Docker</p>
-                <p><font-awesome-icon icon="fa-brands fa-github" class="mx-2"  />Git / Github</p>
+                <p><font-awesome-icon icon="fa-brands fa-github" class="mx-2"  />Git & Github</p>
                 <p><font-awesome-icon icon="fa-brands fa-jira" class="mx-2" />Jira</p>
+                <!-- <p><font-awesome-icon icon="fa-brands fa-jira" class="mx-2" />Jira</p> -->
             </div>
 
             <!-- <div class="border m-1 p-3">
@@ -36,17 +40,19 @@
             </div> -->
     </div>
     </div>
-
 </div>
+
 </template>
 
 <script lang="ts">
+import Navbar from '@/components/navbar.vue';
 import gsap from 'gsap';
 import { defineComponent, onMounted } from 'vue';
 
 
 export default defineComponent({
     name:'SkillsComponents',
+    components: { Navbar},
      setup(){
         onMounted(()=>{
             gsap.to('.skillsContainer',{
@@ -64,6 +70,5 @@ export default defineComponent({
 .skillsContainer{
     transform: translateY(50%);
     opacity: 0;
-
 }
 </style>
