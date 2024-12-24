@@ -16,7 +16,8 @@
             <div v-if="isSidebarOpen" class="sideBar p-4 flex justify-between w-full h-full z-20 fixed top-0">
                 <div class="text-white mt-4 mx-4">light</div>
                 <div class="text-center m-10 space-y-20 uppercase">
-                    <div class="text-[25px] text-white underline underline-offset-[15px]">Home</div>
+                    <div class="text-[25px] text-white underline underline-offset-[15px]"><router-link to="/">Home</router-link></div>
+                    <!-- <div class="text-[25px] text-white underline underline-offset-[15px]">Home</div> -->
                     <div class="text-[25px] text-white hover:underline underline-offset-[20px]"><router-link to="/skills">Skills</router-link></div>
                     <div class="text-[25px] text-white hover:underline underline-offset-[20px]">Projects</div>
                     <div class="text-[25px] text-white hover:underline underline-offset-[20px]">About</div>
