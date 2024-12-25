@@ -1,10 +1,12 @@
 <template>
     <div>
       <div class="flex justify-between items-center m-10">
-        <div class="text-white">LOGO</div>
+        <!-- <div class="text-white">LOGO</div> -->
+        <div class=" w-[90px]"> <router-link to="/"><img src="/images/logo_aigle.webp" alt="Logo Aigle"></router-link></div> 
         <div class="flex space-x-5">
             <div><router-link to="/skills" class="test hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Skills</router-link></div>
-            <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Projects</div>
+            <div><router-link to="/projects" class="test hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Projects</router-link></div>
+            <!-- <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Projects</div> -->
             <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">About</div>
             <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Contact</div>
         </div>
@@ -18,7 +20,7 @@
                 <div class="text-center m-10 space-y-20 uppercase">
                     <div class="text-[25px] text-white underline underline-offset-[15px]"><router-link to="/">Home</router-link></div>
                     <div class="text-[25px] text-white hover:underline underline-offset-[20px]"><router-link to="/skills">Skills</router-link></div>
-                    <div class="text-[25px] text-white hover:underline underline-offset-[20px]">Projects</div>
+                    <div class="text-[25px] text-white hover:underline underline-offset-[20px]"><router-link to="/projects">Projects</router-link></div>
                     <div class="text-[25px] text-white hover:underline underline-offset-[20px]">About</div>
                     <div class="text-[25px] text-white hover:underline underline-offset-[20px]">Contact</div>
                 </div>

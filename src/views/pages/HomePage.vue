@@ -45,6 +45,7 @@ import Footer from '@/components/Footer.vue';
 import { defineComponent, onMounted, ref } from 'vue';
 import gsap from 'gsap';
 
+
 export default defineComponent({
     name:'HomeComponent',
     components: {Navbar, Footer},
