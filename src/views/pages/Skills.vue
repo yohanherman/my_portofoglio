@@ -13,7 +13,8 @@
                 <div class="text-center mb-3">FRONTEND</div>
                 <p><font-awesome-icon icon="fa-brands fa-js" class="mx-2"/> Javascript</p>
                 <p><font-awesome-icon icon="fa-brands fa-vuejs" class="mx-2"/>Vue</p>
-                <p><font-awesome-icon icon="fa-brands fa-css3" class="mx-2"/>TailWind CSS</p>
+                <p><font-awesome-icon icon="fa-brands fa-css3" class="mx-2"/>Tailwind CSS</p>
+    
                 <!-- <p><font-awesome-icon icon="fa-brands fa-css3" class="mx-2"/>TailWind CSS</p> -->
             </div>
 
@@ -30,6 +31,7 @@
                 <p><font-awesome-icon icon="fa-brands fa-docker"  class="mx-2" /> Docker</p>
                 <p><font-awesome-icon icon="fa-brands fa-github" class="mx-2"  />Git & Github</p>
                 <p><font-awesome-icon icon="fa-brands fa-jira" class="mx-2" />Jira</p>
+                <!-- <p><font-awesome-icon icon="fa-brands fa-css3" class="mx-2"/>Gsap</p> -->
                 <!-- <p><font-awesome-icon icon="fa-brands fa-jira" class="mx-2" />Jira</p> -->
             </div>
 

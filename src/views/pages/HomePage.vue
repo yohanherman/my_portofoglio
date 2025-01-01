@@ -13,7 +13,7 @@
                     <span class="letter text-white text-[20px]" v-for="(letter, index) in currentLetters" :key="index"> {{ letter }}</span>
                 </div>
          
-            <p class="my-10 text-[20px] leading-10 text-white">Développeur web et web mobile passionné, je transforme des lignes de code et idées en expériences numériques captivantes et interactives.</p>
+            <p class="my-10 text-[20px] leading-10 text-white">Développeur Fullstack passionné, je transforme des lignes de code et idées en expériences numériques captivantes et interactives.</p>
             <p class="text-[20px] leading-10 text-white">Amateur de minimalisme, je crois en la beauté de la simplicité et de l'harmonie. Hors des écrans, vous me trouverez plongé dans des articles inspirants ou transporté par les mélodies de la pop, toujours à la recherche de nouvelles inspirations.</p>
             <span class="text-[20px] leading-10 text-white">Envie de collaborer, <span class="uppercase font-bold ">Contactez-moi !</span></span>
             <div class="mt-5 mb-20 text-white text-[20px] flex justify-start items-center"> 
