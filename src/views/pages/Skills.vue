@@ -3,7 +3,7 @@
     <Navbar/>
 </div>
 <div class="skillsContainer">
-    <div class="skills text-white mt-20 mb-10">
+    <div class="skills text-white mt-15 mb-10">
         <div class="flex justify-center items-center font-bold text-[20px]">Skills</div>
     </div>
 
