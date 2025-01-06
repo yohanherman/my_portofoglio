@@ -99,7 +99,6 @@ export default defineComponent({
    
 }
 .project1:hover{
-   background-color: red;
    transform: scale(1.1);
 }
 
@@ -117,7 +116,6 @@ export default defineComponent({
     transition: all 0.2s ease-out;
 }
 .project3:hover{
-    background-color: green;
     transform: scale(1.1);
 }   
 }
