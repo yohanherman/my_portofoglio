@@ -92,7 +92,8 @@ export default defineComponent({
 @media( min-width: 768px) {
 .project1{
     transition: all 0.2s ease-out;
-    background-image: url(images/apply.png);
+    /* background-image: url(/images/homepagehiringapp.png); */
+    background-image: url('@/assets/images/apply.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -122,7 +123,8 @@ export default defineComponent({
 
 .project1{
     transition: all 0.2s ease-out;
-    background-image: url(images/apply.png);
+    /* background-image: url('@/assets/apply.png'); */
+     background-image: url('@/assets/images/apply.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
