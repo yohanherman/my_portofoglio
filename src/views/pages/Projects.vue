@@ -12,7 +12,7 @@
 
     <div class="flex justify-center items-center flex-wrap flex-end gap-3">
         <div class="project1 flex flex-col justify-end gap border text-white w-96 h-60 rounded">
-            <a href="https://github.com/yohanherman/recrutement_app" target="_blank" rel="noopener noreffer" class="text-end mx-5 text-[30px]"><font-awesome-icon icon="fa-brands fa-github"/></a>
+            <a href="https://github.com/yohanherman/recrutement_app" target="_blank" rel="noopener noreffer" class="text-end text-black mx-5 text-[40px]"><font-awesome-icon icon="fa-brands fa-github"/></a>
             <h3 class="text-[20px] m-2">Recrutment platform</h3>
             <p class="m-2 mb-4">A platform for publishing job offers or getting a job according to roles.</p>
 
@@ -25,7 +25,7 @@
         </div>
 
         <div class="project2 flex flex-col justify-end gap border text-white w-96 h-60 rounded">
-            <a href="https://github.com/yohanherman/laravelshop" target="_blank" rel="noopener noreffer" class="text-end mx-5 text-[30px]"><font-awesome-icon icon="fa-brands fa-github"/></a>
+            <a href="https://github.com/yohanherman/laravelshop" target="_blank" rel="noopener noreffer" class="text-end mx-5 text-[40px]"><font-awesome-icon icon="fa-brands fa-github"/></a>
             <h3 class="text-[20px] m-2">Online Shop</h3>
             <p class="m-2 mb-4">An E-commerce Application For Buying electronic devices.</p>
 
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="project3 flex flex-col justify-end gap border text-white w-96 h-60 rounded">
-            <p class="text-end mx-5 text-[30px]"><font-awesome-icon icon="fa-brands fa-github"/></p>
+            <p class="text-end mx-5 text-[40px]"><font-awesome-icon icon="fa-brands fa-github"/></p>
             <h3 class="text-[20px] m-2">Portofoglio</h3>
             <p class="m-2 mb-4">My personal website where you can fetch more information about me.</p>
             <div class="flex justify-center items-center gap-8 mb-4">
@@ -88,22 +88,26 @@ export default defineComponent({
     transform: translateY(30%);
 }
 
+
+@media( min-width: 768px) {
 .project1{
     transition: all 0.2s ease-out;
+    /* background-image: url(images/homepagehiringap.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
 }
 .project1:hover{
-    /* background-color: red; */
    background-color: red;
    transform: scale(1.1);
 }
 
 .project2{
-    /* background-color: blue; */
     transition: all 0.2s ease-out;
 }
 
 .project2:hover{
-    /* background-color: red; */
    background-color: blue;
    transform: scale(1.1);
 }
@@ -115,6 +119,12 @@ export default defineComponent({
 .project3:hover{
     background-color: green;
     transform: scale(1.1);
+}   
 }
 
+.project1{
+    transition: all 0.2s ease-out;
+    background-image: url(images/apply.png);
+    background-size: cover;
+}
 </style>

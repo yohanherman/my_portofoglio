@@ -4,11 +4,10 @@
         <div class="text-white">LOGO</div>
         <!-- <div> <router-link to="/"><img class="w-[65px] h-[65px] rounded" src="/images/logo_aigle.webp" alt="Logo Aigle"></router-link></div>  -->
         <div class="flex space-x-5">
-            <div><router-link to="/skills" class="test hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Skills</router-link></div>
-            <div><router-link to="/projects" class="test hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Projects</router-link></div>
-            <!-- <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Projects</div> -->
-            <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">About</div>
-            <div class="hidden md:flex text-[20px] text-white hover:underline hover:underline-offset-[10px]">Contact</div>
+            <div><router-link to="/skills" class="section hidden md:flex text-[20px] text-white">Skills</router-link></div>
+            <div><router-link to="/projects" class="section hidden md:flex text-[20px] text-white ">Projects</router-link></div>
+            <div class="section hidden md:flex text-[20px] text-white">About</div>
+            <div class="section hidden md:flex text-[20px] text-white ">Contact</div>
         </div>
         <div  @click="toggleSidebar" class="text-[30px] text-white md:hidden "><font-awesome-icon icon="fa-solid fa-bars" /></div>
     </div>
@@ -78,9 +77,13 @@
     background-color:rgb(5, 6, 14);
   }
 
-  /* .test{
-    transition: all 1s ease-out;
-  } */
+  .section{
+    transition: all 0.2s ease-out;
+  } 
+  .section:hover{
+    /* text-decoration: underline; */
+    transform: scale(1.2);
+  }
 
   </style>
   
